@@ -45,7 +45,7 @@ Or You can download it from the plugin website directly- [Direct Download](http:
 
 ### Package Managers
 **Important**
-- Make sure you add the jQuery and Bootstrap libraries before the feastChecker JS file
+- Make sure you add the jQuery and Bootstrap libraries before the feastSelect JS file
 - If you already have jQuery and Bootstrap on your page, you shouldn't include it second time
 - We recommended to using name attribute to skip any bugs
 
