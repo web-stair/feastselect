@@ -1,0 +1,177 @@
+a,
+a:hover {
+    color: #5252FF;
+}
+
+h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+
+h2 + h3 {
+    margin-top: -2rem;
+}
+
+h3 a,
+h3 a:hover {
+    color: currentColor;
+}
+
+code {
+    color: #555;
+    padding: 2px 5px;
+}
+
+pre {
+    background: #f1ecec;
+    color: #555;
+    max-height: 70vh;
+    overflow: auto;
+    padding: 1rem 1.5rem;
+    -moz-tab-size: 4;
+         tab-size: 4;
+}
+
+pre code {
+    padding: 0;
+}
+
+section {
+    margin-bottom: 1rem;
+    margin-bottom: 5vh;
+}
+
+#introduction {
+    background: #fbf9f9;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.navbar-brand {
+    color: #444;
+    font-size: 1.375rem;
+    color: #5252FF;
+    border: 3px double #5252FF;
+    padding: 5px 15px;
+}
+
+.navbar-brand svg {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.navbar-brand svg path {
+    fill: #fff;
+    stroke: #444;
+    stroke-width: 2.5;
+}
+
+.nav-link {
+    color: grey;
+    height: 2.5rem;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #464646;
+}
+
+.nav-link.active {
+    background: #5252FF;
+    border-radius: .25rem;
+    color: #fff;
+}
+
+.sticky {
+    padding-top: 2rem;
+    top: 0;
+}
+
+.sticky ul {
+    line-height: 2;
+    list-style: none;
+}
+
+.sticky > ul {
+    padding-left: 1rem;
+}
+
+.sticky a {
+    color: grey;
+    text-decoration: none;
+}
+
+.sticky a:hover {
+    color: #464646;
+}
+
+.sticky a.active {
+    color: #5252FF;
+}
+
+.demo {
+    font-size: 90%;
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+pre ~ .demo {
+    margin-top: -1rem;
+}
+
+.badge-warning {
+    font-weight: 600;
+}
+
+
+/* Demo styles */
+.my-custtom-btn {
+    background-color: #5252FF;
+    color: #fff;
+    border: 1px solid #2C2CCA;
+    padding: 5px 30px;
+    border-radius: 0;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7), 3px 3px 0px rgba(0, 0, 0, 0.5),4px 4px 0px rgba(0, 0, 0, 0.3),5px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+    width: 200px;    
+}
+.my-custtom-btn + .dropdown-menu {
+    background-color: #3A3AC6;
+    margin-top: 5px;
+    padding: 0;
+    width: 200px;    
+}
+.my-custtom-btn + .dropdown-menu li{
+    color: #fff;
+    padding: 0 10px;
+    line-height: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.my-custtom-btn + .dropdown-menu li:last-child{
+    border-bottom: none;
+}
+.my-custtom-btn:focus {
+    background-color: #4141EA;
+    color: #fff;
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -o-transform: translateY(3px);
+    transform: translateY(3px);
+    border: 1px solid #2C2CCA;
+    padding: 5px 30px;
+    border-radius: 0;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7)
+}

@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>feastSelect Documentation</title>
+
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <!-- jQuery -->
+  <script src="assets/js/jquery.min.js"></script>
+
+  <!-- Bootstrap  -->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Required stuff -->
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+  <link rel="stylesheet" href="assets/css/tranquil-heart.min.css">
+
+
+  <!-- FeastSelect  -->
+  <script src="assets/js/feastSelect.js"></script>
+
+
+</head>
+
+<body>
+  <div id="introduction">
+    <div class="container">
+      <nav class="navbar navbar-expand">
+        <a class="navbar-brand py-0 mr-auto" href="http://eadhassan.com/feastselect/">
+          feastSelect
+        </a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-2 d-none d-md-block">
+            <a class="nav-link" href="http://projects.eadhassan.com/feastselect/">Home</a>
+          </li>
+          <li class="nav-item px-2 d-none d-md-block">
+            <a class="nav-link active" href="http://projects.eadhassan.com/feastselect/documentation">Documentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/eadhassan/feastselect" target="_blank">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-label="Github" role="img" viewBox="0 0 512 512">
+                <rect fill="#444" width="512" height="512" rx="50%"></rect>
+                <path fill="#fff" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2" id="leftCol">
+        <div class="sticky">
+          <ul>
+            <li>
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li>
+              <a href="#setup">Setup</a>
+            </li>
+            <li>
+              <a href="#usage">How to Use</a>
+            </li>
+            <li>
+              <a href="#examples">Live Examples</a>
+            </li>
+            <li>
+              <a href="#options">Options</a>
+            </li>
+            <li>
+              <a href="#credits">Credits</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-10 px-2 px-md-5" id="mainCol">
+
+        <section>
+          <h2>Introduction</h2>
+
+          <p>
+            Get started with feastSelect, Lets show bootstrap dropdown button instead of default form select tag.
+          </p>
+        </section>
+        <section>
+          <h3>Compatibility</h3>
+
+          <p>
+            feastSelect work with bootstrap 3.x and 4.x, So it's compatible with any browser work with bootstrap.
+          </p>
+
+          <p>
+            feastSelect has been tested in following browsers/devices:
+          </p>
+
+          <ul>
+            <li>Chrome</li>
+            <li>Firefox</li>
+            <li>IE10/11</li>
+            <li>Edge</li>
+            <li>iOS Safari</li>
+            <li>Android 7.0 Tablet</li>
+          </ul>
+
+        </section>
+
+        <section id="setup">
+
+          <h2>Setup</h2>
+
+          <p>
+            You can install feastSelect by linking
+            <code>.css</code> and <code>.js</code> files to your html file. Make sure you also load the jQuery library. Below is a basic HTML
+            template to use as an example:
+          </p>
+
+          <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;!DOCTYPE html&GT;
+&LT;html&GT;
+&LT;head&GT;
+  &LT;meta charset=&quot;utf-8&quot;&GT;
+  &LT;title&GT;My page&LT;/title&GT;
+  &LT;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"&GT;
+&LT;/head&GT;
+&LT;body&GT;
+
+  &LT;!-- Your HTML content goes here --&GT;
+
+  &LT;!-- JS --&GT;
+  &LT;script src=&quot;//code.jquery.com/jquery-3.2.1.min.js&quot;&GT;&LT;/script&GT;
+  &LT;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js&quot;&GT;&LT;/script&GT;
+  &LT;script src=&quot;feastSelect.js&quot;&GT;&LT;/script&GT;
+&LT;/body&GT;
+&LT;/html&GT;
+</code></pre>
+          <h3>Download feastSelect</h3>
+
+          <p>
+            Download the latest version of feastSelect on
+            <a href="https://github.com/eadhassan/feastSelect" target="_blank">GitHub</a>.
+            <br /> Or You can download it from the plugin website directly-
+            <a href="http://eadhassan.com/feastselect/download" target="_blank">Direct Download</a>.
+          </p>
+
+          <h3>Package Managers</h3>
+
+          <h4 class="mt-2">
+            <span class="badge badge-warning">Important</span>
+          </h4>
+
+          <ul>
+            <li>Make sure you add the jQuery and Bootstrap libraries before the feastChecker JS file</li>
+            <li>If you already have jQuery and Bootstrap on your page, you shouldn't include it second time</li>
+            <li>We recommended to using <code>name</code> attribute to skip any bugs</li>
+          </ul>
+
+        </section>
+
+        <section id="usage">
+          <h2>How to Use</h2>
+
+          <h3>Initialize with data attributes</h3>
+
+          <p>
+            The most basic way to use feastSelect is by adding the
+            <code>data-feast-select</code> attribute to your element. This will automatically replace the current select with dropdown menu. Use
+            <code>data-btn-text</code> attribute to Change the button text. Example:
+          </p>
+
+          <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;select class="form-control" name="example" data-feast-select data-btn-text="Select an option"&GT;
+  &LT;option&GT;Select option&LT;option&GT;
+  &LT;option value="1"&GT;Option 1&LT;option&GT;
+  &LT;option value="2"&GT;Option 2&LT;option&GT;
+  &LT;option value="3"&GT;Option 3&LT;option&GT;
+&LT;/select&GT;</code></pre>
+
+
+          <h4 class="mt-2">
+            <span class="badge badge-warning">Notice</span>
+          </h4>
+
+          <ul>
+            <li>Any <code>option</code> tag without or with empty <code>value</code> attribute will be removed automatically</li>
+          </ul>
+
+          <h3 id="initialize-with-javascript">Initialize with JavaScript</h3>
+
+          <p>
+            Select your elements with a jQuery selector (you can use any valid selector) and call the
+            <code>feastSelect</code> method:
+          </p>
+
+          <pre class="prettyprint language-javascript"><code class="language-javascript" data-lang="javascript">$('select').FeastSelect({
+	// Options will go here
+  btnText: 'Select an option',
+  btnClass: 'my-custom-class' // you don't need to add btn class here
+});
+</code></pre>
+
+
+          <h4 class="mt-2">
+            <span class="badge badge-warning">Notice</span>
+          </h4>
+
+          <p>
+            If you call the plugin from JavaScript and data attribute, the data attribute will skiped
+          </p>
+
+        </section>
+        <section id="examples">
+
+          <h2>Live Example</h2>
+
+          <p>Calling The plugin from data attribute with default options</p>
+
+          <div class="form-group">
+            <select class="form-control" name="example_data-1" data-feast-select>
+              <option>Select option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+          <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;select class="form-control" data-feast-select&GT;
+  &LT;option&GT;Select option&LT;/option&GT;
+  &LT;option value="1"&GT;Option 1&LT;/option&GT;
+  &LT;option value="2"&GT;Option 2&LT;/option&GT;
+  &LT;option value="3"&GT;Option 3&LT;/option&GT;
+&LT;/select&GT;
+</code></pre>
+
+          <p>Calling The plugin from data attribute with custom options</p>
+
+          <div class="form-group">
+            <select class="form-control" name="example_data-2" data-feast-select data-btn-text="Select category" data-btn-class="btn-lg btn-danger">
+              <option>Select option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+          <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;select class="form-control" data-feast-select data-btn-text="Select category" data-btn-class="btn-lg btn-danger"&GT;
+  &LT;option&GT;Select option&LT;/option&GT;
+  &LT;option value="1"&GT;Option 1&LT;/option&GT;
+  &LT;option value="2"&GT;Option 2&LT;/option&GT;
+  &LT;option value="3"&GT;Option 3&LT;/option&GT;
+&LT;/select&GT;
+</code></pre>
+
+          <p>Calling The plugin from JavaScript with fade effect</p>
+
+          <div class="form-group">
+            <select class="form-control example1" name="example-1">
+              <option>Select option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+          <script type="text/javascript">
+            $('.example1').FeastSelect({
+              showEffect: 'fadeIn',
+              hideEffect: 'fadeOut'
+            })
+          </script>
+          <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;script type="text/javascript"&GT;
+  $('.example1').FeastSelect({
+    showEffect: 'fadeIn',
+    hideEffect: 'fadeOut'
+  })
+&LT;/script&GT;
+</code></pre>
+
+          <p>Calling The plugin from JavaScript with custom class and show original select tag</p>
+          <p>Try to change both <code>dropdown menu</code> and <code>select tag</code></p>
+
+          <div class="form-group">
+            <select class="form-control example2" name="example-2">
+              <option>Select option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+          <script type="text/javascript">
+            $('.example2').FeastSelect({
+              btnText: 'List the options',
+              btnClass: 'my-custtom-btn',
+              hideOriginal: false
+            })
+          </script>
+          <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;script type="text/javascript"&GT;
+  $('.example2').FeastSelect({
+    btnText: 'List the options',
+    hideOriginal: false
+  })
+&LT;/script&GT;
+</code></pre>
+
+          <h4 class="mt-2">
+            <span class="badge badge-warning">Notice</span>
+          </h4>
+
+          <p>
+            To change the dropdown menu css for specific select you can use the example code below:
+          </p>
+          
+          <pre class="prettyprint language-css"><code class="language-css" data-lang="css">// For change a specific select style 
+.yourCustomClass {
+  
+    /* Button styles here */
+
+}
+.yourCustomClass + .dropdown-menu { // Change selectName with the select name attribute   
+
+    /* Dropdown styles here */
+
+}
+
+// For change all select style
+[class*="feastSelect_"] + .dropdown-menu {   
+
+    /* Dropdown styles here */
+
+}
+</code></pre>
+
+          <p>Multiple select tags</p>
+
+          <div class="example3">
+            <div class="form-group">
+              <label class="form-control-label">• Select tag 1</label>
+              <select class="form-control" name="example_data-3">
+                <option>Select option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-control-label">• Select tag 1</label>
+              <select class="form-control" name="example_data-4">
+                <option>Select option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-control-label">• Select tag 1</label>
+              <select class="form-control" name="example_data-5">
+                <option>Select option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <script type="text/javascript">
+            $('.example3 select').FeastSelect({
+              btnText: 'show me the options',
+            })
+          </script>
+          <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;script type="text/javascript"&GT;
+  $('.example3 select').FeastSelect({
+    btnText: 'List the options',
+  })
+&LT;/script&GT;
+</code></pre>
+
+        </section>
+
+
+        <section id="options">
+          <h2>Options</h2>
+
+          <p>
+            Quick reference for the default options as defined in the source:
+          </p>
+
+          <pre class="prettyprint language-javascript"><code class="language-javascript" data-lang="javascript">// Default options
+var defaults = {
+      btnClass    : 'btn-info',
+      btnText     : 'Select your option',
+      showEffect  : 'slideDown', // fade, hide, slideDown
+      hideEffect  : 'slideUp', // fade, hide, slideDown
+      hideOriginal: true
+};
+</code></pre>
+
+          <h4 class="mt-2">
+            <span class="badge badge-warning">Notice</span>
+          </h4>
+
+          <p>
+            option <code>hideOtiginal</code> accepted in JavaScript only not from <code>data</code> attribute
+          </p>
+
+
+          <p>
+            Set instance options by passing a valid object to <code>feastSelect()</code> method:
+          </p>
+
+          <pre class="prettyprint language-javascript"><code class="language-javascript" data-lang="javascript"e>$(&quot;select&quot;).FeastSelect({
+	hideOriginal : false
+});</code></pre>
+
+        </section>
+        <section id="credits">
+
+          <h2>Credits</h2>
+
+          <p>FeastChecker is using this awesome libraries</p>
+          <ul>
+            <li><a href="https://jquery.com">jQuery</a></li>
+            <li><a href="https://getbootstrap.com">Bootstrap</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <p class="text-right mt-5">
+            <a href="#introduction">Back to Top</a>
+          </p>
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
