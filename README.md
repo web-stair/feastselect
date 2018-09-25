@@ -117,8 +117,6 @@ If you call the plugin from JavaScript and data attribute, the data attribute wi
 
 ### Calling The plugin from JavaScript with custom class and show original select tag
 
-**Try to change both dropdown menu and select tag**
-
 ```html
 <script type="text/javascript">
   $('.example2').FeastSelect({
