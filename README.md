@@ -1,5 +1,5 @@
 ## Introduction
-Get started with FeastSelect, Lets show bootstrap dropdown button instead of default form select tag.
+Get started with FeastSelect, Let's give &lt;select&gt; a nice Looking.
 
 ## Live demo
 [Live demo](http://eadhassan.com/feastselect)
@@ -177,6 +177,7 @@ var defaults = {
 - data-show-effect
 - data-hide-effect
 - data-icon-place
+- data-icon ( for the option tags only )
 
 **Notice**
 > option hideOriginal accepted in JavaScript only not from data attribute
