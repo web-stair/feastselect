@@ -83,13 +83,14 @@ If you call the plugin from JavaScript and data attribute, the data attribute wi
 
 ## Live Example
 ### Calling The plugin from data attribute with default options
+The plugin accepted icons with options to set icon class add it like this <code>data-icon="fa fa-home"</code> to the option tag, you can change icon place (right, left) see options section
 
 ```html
 <select class="form-control" data-feast-select>
   <option>Select option</option>
-  <option value="1">Option 1</option>
-  <option value="2">Option 2</option>
-  <option value="3">Option 3</option>
+  <option value="1" data-icon="fa fa-home">Option 1</option>
+  <option value="2" data-icon="fa fa-user">Option 2</option>
+  <option value="3" data-icon="fa fa-cog">Option 3</option>
 </select>
 ```
 
@@ -169,9 +170,16 @@ var defaults = {
       btnText     : 'Select your option',
       showEffect  : 'slideDown', // fade, hide, slideDown
       hideEffect  : 'slideUp', // fade, hide, slideDown
+      iconPlace   : 'left', // left or right
       hideOriginal: true
 };
 ```
+**Accepted data attributes for options:**
+- data-btn-class
+- data-btn-text
+- data-show-effect
+- data-hide-effect
+- data-icon-place
 
 **Notice**
 option hideOtiginal accepted in JavaScript only not from data attribute
