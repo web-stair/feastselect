@@ -1,5 +1,5 @@
 ## Introduction
-Get started with FeastSelect, Let's give &lt;select&gt; a nice Looking.
+Get started with FeastSelect, Let's give <code>&lt;select&gt;</code> a nice Looking.
 
 ## Live demo
 [Live demo](http://eadhassan.com/feastselect)
