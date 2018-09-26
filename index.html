@@ -10,9 +10,10 @@
   <!-- Bootstrap  -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
+	<!-- Fontawesome -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
   <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
-
 
   <!-- jQuery -->
   <script src="assets/js/jquery.min.js"></script>
@@ -25,9 +26,9 @@
 
   <link rel="stylesheet" href="assets/css/tranquil-heart.min.css">
 
-
   <!-- FeastSelect  -->
-  <script src="assets/js/feastSelect.js"></script>
+  <link rel="stylesheet" type="text/css" href="dist/feastselect.css">
+  <script src="dist/feastSelect.js"></script>
 
 
 </head>
@@ -162,7 +163,7 @@
           </h4>
 
           <ul>
-            <li>Make sure you add the jQuery and Bootstrap libraries before the feastChecker JS file</li>
+            <li>Make sure you add the jQuery and Bootstrap libraries before the feastSelect JS file</li>
             <li>If you already have jQuery and Bootstrap on your page, you shouldn't include it second time</li>
             <li>We recommended to using <code>name</code> attribute to skip any bugs</li>
           </ul>
@@ -225,20 +226,21 @@
           <h2>Live Example</h2>
 
           <p>Calling The plugin from data attribute with default options</p>
+          <p>The plugin accepted icons with options to set icon class add it like this <code>data-icon="fa fa-home"</code> to the option tag, you can change icon place (right, left) see <a href="#options">options</a></p>
 
           <div class="form-group">
-            <select class="form-control" name="example_data-1" data-feast-select>
+            <select class="form-control" name="example_data-1" data-feast-select data-icon-place="left">
               <option>Select option</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
+              <option value="1" data-icon="fa fa-home">Option 1</option>
+              <option value="2" data-icon="fa fa-user">Option 2</option>
+              <option value="3" data-icon="fa fa-cog">Option 3</option>
             </select>
           </div>
           <pre class="prettyprint language-html"><code class="language-html" data-lang="html">&LT;select class="form-control" data-feast-select&GT;
   &LT;option&GT;Select option&LT;/option&GT;
-  &LT;option value="1"&GT;Option 1&LT;/option&GT;
-  &LT;option value="2"&GT;Option 2&LT;/option&GT;
-  &LT;option value="3"&GT;Option 3&LT;/option&GT;
+  &LT;option value="1" data-icon="fa fa-home"&GT;Option 1&LT;/option&GT;
+  &LT;option value="2" data-icon="fa fa-user"&GT;Option 2&LT;/option&GT;
+  &LT;option value="3" data-icon="fa fa-cog"&GT;Option 3&LT;/option&GT;
 &LT;/select&GT;
 </code></pre>
 
@@ -393,13 +395,25 @@
 
           <pre class="prettyprint language-javascript"><code class="language-javascript" data-lang="javascript">// Default options
 var defaults = {
-      btnClass    : 'btn-info',
-      btnText     : 'Select your option',
-      showEffect  : 'slideDown', // fade, hide, slideDown
-      hideEffect  : 'slideUp', // fade, hide, slideDown
-      hideOriginal: true
+    btnClass      : 'btn-info',
+    btnText       : 'Select your option',
+    showEffect    : 'slideDown', // fade, hide, slideDown
+    hideEffect    : 'slideUp', // fade, hide, slideDown
+    iconPlace     : 'left', // left or right
+    hideOriginal  : true
 };
 </code></pre>
+
+          <p>
+            <strong>Accepted data attributes for options:</strong>
+          </p>
+<ol>
+	<li>data-btn-class</li>
+	<li>data-btn-text</li>
+	<li>data-show-effect</li>
+	<li>data-hide-effect</li>
+	<li>data-icon-place</li>
+</ol>
 
           <h4 class="mt-2">
             <span class="badge badge-warning">Notice</span>
