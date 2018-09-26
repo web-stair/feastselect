@@ -45,9 +45,9 @@ Or You can download it from the plugin website directly- [Direct Download](http:
 
 ### Package Managers
 **Important**
-- Make sure you add the jQuery and Bootstrap libraries before the feastSelect JS file
-- If you already have jQuery and Bootstrap on your page, you shouldn't include it second time
-- We recommended to using name attribute to skip any bugs
+> - Make sure you add the jQuery and Bootstrap libraries before the feastSelect JS file
+> - If you already have jQuery and Bootstrap on your page, you shouldn't include it second time
+> - We recommended to using name attribute to skip any bugs
 
 ## How to Use
 ### Initialize with data attributes
@@ -62,8 +62,7 @@ The most basic way to use FeastSelect is by adding the data-feast-select attribu
 </select>
 ```
 **Notice**
-
-Any option tag without or with empty value attribute will be removed automatically
+> Any option tag without or with empty value attribute will be removed automatically
 
 ### Initialize with JavaScript
 
@@ -78,12 +77,11 @@ $('select').FeastSelect({
 ```
 
 **Notice**
-
-If you call the plugin from JavaScript and data attribute, the data attribute will skiped
+> If you call the plugin from JavaScript and data attribute, the data attribute will skiped
 
 ## Live Example
 ### Calling The plugin from data attribute with default options
-The plugin accepted icons with options to set icon class add it like this <code>data-icon="fa fa-home"</code> to the option tag, you can change icon place (right, left) see options section
+> The plugin accepted icons with options to set icon class add it like this <code>data-icon="fa fa-home"</code> to the option tag, you can change icon place (right, left) see options section
 
 ```html
 <select class="form-control" data-feast-select>
@@ -128,8 +126,7 @@ The plugin accepted icons with options to set icon class add it like this <code>
 ```
 
 **Notice**
-
-To change the dropdown menu css for specific select you can use the example code below:
+> To change the dropdown menu css for specific select you can use the example code below:
 
 ```css
 // For change a specific select style 
@@ -182,7 +179,7 @@ var defaults = {
 - data-icon-place
 
 **Notice**
-option hideOtiginal accepted in JavaScript only not from data attribute
+> option hideOtiginal accepted in JavaScript only not from data attribute
 
 **Set instance options by passing a valid object to FeastSelect() method:**
 ```javascript
