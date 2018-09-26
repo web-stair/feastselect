@@ -1,0 +1,24 @@
+/*
+ * Plugin name: jQuery feastSelect plugin
+ * Plugin Version: 1.1
+ * URI: http://eadhassan.com/feastselect
+ * Author: Ead Hassan
+ * Author Email: info@eadhassan.com
+ * Author URI: http://eadhassan.com
+ */
+
+/* Default css */
+
+button[class*="feastSelect_"] {
+  display: block;
+  margin-top: 10px;
+}
+ul[class*="feastSelect_"] {
+  padding: 0;
+}
+ul[class*="feastSelect_"] li{
+  cursor: pointer;
+  padding: 5px;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
