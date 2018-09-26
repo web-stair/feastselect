@@ -189,7 +189,7 @@ $("select").FeastSelect({
 ```
 
 ## Credits
-FeastChecker is using this awesome libraries
+FeastSelect is using this awesome libraries
 
 1. [jQuery](https://jquery.com/)
 2. [Bootstrap](https://getbootstrap.com)
