@@ -1,6 +1,6 @@
 /*
- * Plugin name: jQuery lazyLoad plugin 0.1
- * URI: http://demo.eadhassan.com/lazyload
+ * Plugin name: jQuery feastSelect plugin 0.1
+ * URI: http://eadhassan.com/feastselect
  * Author: Ead Hassan
  * Author Email: info@eadhassan.com
  * Author URI: http://eadhassan.com
