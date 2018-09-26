@@ -179,7 +179,7 @@ var defaults = {
 - data-icon-place
 
 **Notice**
-> option hideOtiginal accepted in JavaScript only not from data attribute
+> option hideOriginal accepted in JavaScript only not from data attribute
 
 **Set instance options by passing a valid object to FeastSelect() method:**
 ```javascript
