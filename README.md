@@ -1,5 +1,5 @@
 ## Introduction
-Get started with FeastSelect, Let's give <select> a nice Look by Showing bootstrap dropdown instead of default form select tag.
+Get started with FeastSelect, Let's give select tags a nice look.
 
 ## Live demo
 [Live demo](http://eadhassan.com/feastselect)
