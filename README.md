@@ -79,7 +79,7 @@ $('select').FeastSelect({
 **Notice**
 > If you call the plugin from JavaScript and data attribute, the data attribute will skiped
 
-## Live Example
+## More Example
 ### Calling The plugin from data attribute with default options
 > The plugin accepted icons with options to set icon class add it like this <code>data-icon="fa fa-home"</code> to the option tag, you can change icon place (right, left) see options section
 
