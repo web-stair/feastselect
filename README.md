@@ -2,7 +2,7 @@
 Get started with FeastSelect, Let's give &lt;select&gt; a nice look.
 
 ## Live demo
-[Live demo](http://eadhassan.com/feastselect)
+[Live demo](https://demo.eadhassan.com/feastselect)
 
 
 ## Compatibility
@@ -41,7 +41,7 @@ You can install FeastSelect by linking .css and .js files to your html file. Mak
 
 ### Download feastSelect
 Download the latest version of FeastSelect on GitHub. 
-Or You can download it from the plugin website directly- [Direct Download](http://eadhassan.com/feastselect/download).
+Or You can download it from the plugin website directly- [Direct Download](https://demo.eadhassan.com/feastselect/download).
 
 ### Package Managers
 **Important**
