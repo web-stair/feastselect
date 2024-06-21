@@ -2,7 +2,7 @@
 Get started with FeastSelect, Let's give &lt;select&gt; a nice look.
 
 ## Live demo
-[Live demo](https://demo.eadhassan.com/feastselect)
+[Live demo](https://web-stair.github.io/feastselect/)
 
 
 ## Compatibility
@@ -38,11 +38,6 @@ You can install FeastSelect by linking .css and .js files to your html file. Mak
 </body>
 </html>
 ```
-
-### Download feastSelect
-Download the latest version of FeastSelect on GitHub. 
-Or You can download it from the plugin website directly- [Direct Download](https://demo.eadhassan.com/feastselect/download).
-
 ### Package Managers
 **Important**
 > - Make sure you add the jQuery and Bootstrap libraries before the feastSelect JS file
